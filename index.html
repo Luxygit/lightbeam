@@ -28,7 +28,7 @@
         p { margin-bottom: 1rem; color: #475569; }
         ul { margin-bottom: 1.5rem; padding-left: 1.25rem; }
         li { margin-bottom: 0.5rem; color: #475569; }
-        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
         .card { background: var(--light); padding: 1.5rem; border-radius: 0.375rem; border-left: 4px solid var(--primary); }
         .card h4 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--dark); }
         .spec-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
@@ -40,11 +40,11 @@
 <body>
 
     <header>
-        <h1 class="logo-tag">✨ SUNBEAM NGO</h1>
-        <span>The Floating Open-Source Student Lab</span>
+        <span class="logo-tag">✨ SUNBEAM NGO</span>
+        <h1>The Floating Open-Source Student Lab</h1>
         <p>A zero-emission solar boat built to serve as a permanent mobile laboratory navigating European waters for diverse academic projects.</p>
         <a href="#crowdfunding" class="btn"> 🚀 Support us with a donation! </a>
-        <a href="https://www.indiegogo.com/en/projects/sunbeamlab/sunbeam-the-solar-powered-student-boat-lab" class="btn" target="_blank">🚀 Take a look at our iniciative on Indiegogo</a>
+        <a href="https://www.indiegogo.com/en/projects/sunbeamlab/sunbeam-the-solar-powered-student-boat-lab" class="btn" target="_blank" rel="noopener">🚀 Take a look at our iniciative on Indiegogo</a>
     </header>
 
     <div class="container">
@@ -58,7 +58,7 @@
         <section id="crew">
             <h2>🗒️ The 4-Student Crew Configuration</h2>
             <p>SunBeam will operate on a rolling schedule, hosting exactly four carefully screened European students at any given time FOR FREE!.
-                Crew members will be selected based on their profile and on-board vision. There are some mandatory conditions detailed in our <a href="https://github.com/Luxygit/sunbeam/blob/main/CrewGuide.md"> CREW MEMBER GUIDE </a>
+                Crew members will be selected based on their profile and on-board vision. There are some mandatory conditions detailed in our <a href="https://github.com/Luxygit/sunbeam/blob/main/CrewGuide.md" target="_blank" rel="noopener"> CREW MEMBER GUIDE </a>
                 Each voyage will maintain a balanced team covering four critical technical pillars:</p>
             
             <div class="grid-2">
@@ -87,25 +87,36 @@
             <table class="spec-table">
                 <tr><th>Metric / Feature</th><th>Specification Value</th><th>Canal Integration Strategy</th></tr>
                 <tr><td>Maximum Length</td><td>10.00 – 12.00 Meters</td><td>Optimal handling inside standard lock basins</td></tr>
-                <tr><td>Maximum Beam</td><td>3.00 Meters</td><td>Clears tight European Freycinet limits safely</td></tr>
-                <tr><td>Maximum Air Draft</td><td>2.00 Meters</td><td>Glides beneath low historical stone canal arches</td></tr>
+                <tr><td>Maximum Beam</td><td>3.50 Meters</td><td>Clears tight European Freycinet limits safely</td></tr>
+                <tr><td>Maximum Air Draft</td><td>1.90 Meters</td><td>Glides beneath low historical stone canal arches</td></tr>
                 <tr><td>Maximum Hull Draft</td><td>1.00 Meter</td><td>Prevents running aground in shallow silt waterways</td></tr>
                 <tr><td>Solar Matrix Capacity</td><td>2.7 kW (Rigid Overhead Array)</td><td>Direct electric drive during optimal sun cycles</td></tr>
-                <tr><td>Propulsion System</td><td>6 kW Electric Outboard Motor</td><td>Zero emissions, minimal acoustic marine footprint</td></tr>
-                <tr><td>Battery Storage Bank</td><td>15 kWh – 20 kWh LiFePO4</td><td>Guarantees 5-7 hours continuous night/cloud motoring</td></tr>
+                <tr><td>Propulsion System</td><td>7 kW Electric Outboard Motor</td><td>Zero emissions, minimal acoustic marine footprint</td></tr>
+                <tr><td>Battery Storage Bank</td><td>15 kWh – 20 kWh LiFePO4</td><td>Guarantees plety of stored power for cloudy days</td></tr>
             </table>
         </section>
 
         <section id="crowdfunding">
             <h2>📈 Crowdfunding Framework & Altruistic Support</h2>
-            <p>SunBeam utilizes a purely community-backed, altruistic financial framework. Our upcoming crowdfunding initiative targets a fixed <strong>€18,000 baseline budget</strong>, with 100% of the funds allocated straight to raw hardware and marine construction components.</p>
+            <p>SunBeam utilizes a purely community-backed, altruistic financial framework. Our upcoming crowdfunding initiative targets a fixed <strong>€18,000 baseline budget</strong>, with 100% of the funds allocated straight to raw hardware and marine construction components, among other products needed for the life of the students aboard.</p>
             <h3>Direct Resource Allocation:</h3>
             <ul>
-                <li><strong>Hull Refitting & Plywood Marine Structural Adjustments:</strong> €7,000</li>
-                <li><strong>Electric Propulsion Outboard & Steering Integration:</strong> €4,500</li>
-                <li><strong>Solar Array System & MPPT Regulators:</strong> €2,500</li>
-                <li><strong>LiFePO4 Lithium Cells & Battery Management Safety Array:</strong> €2,200</li>
-                <li><strong>Indiegogo Transaction processing, Platform Protections & Licensing Logistics:</strong> €1,800</li>
+                <li><strong>Boat Hull:</strong> €1,000</li>
+                <li><strong>Marine epoxy and fiberglass:</strong> €1,500</li>
+                <li><strong>Plywood and framing lumber:</strong> €1,200</li>
+                <li><strong>Tools and safety gear:</strong> €600</li>
+                <li><strong>Electric Propulsion Outboard engine:</strong> €4,000</li>
+                <li><strong>Battery storage 20kw:</strong> €1,800</li>
+                <li><strong>Solar Array System & MPPT Regulators:</strong> €1,100</li>
+                <li><strong>Marine copper cables and fuses:</strong> €400</li>
+                <li><strong>Multiplus Inverter:</strong> €600</li>
+                <li><strong>Water tanks:</strong> €400</li>
+                <li><strong>Pumps and purification:</strong> €400</li>
+                <li><strong>Plumbing, shower heads, toilet:</strong> €400</li>
+                <li><strong>Electric kitchen:</strong> €400</li>
+                <li><strong>Starlink:</strong> €400</li>
+                <li><strong>Freezer:</strong> €400</li>
+                <li><strong>Indiegogo Transaction processing, Platform Protections:</strong> €1,800</li>
             </ul>
             <p>Donors have structural flexibility to contribute any custom capital amount between <strong>€20 and €5,000</strong>. All contributions serve exclusively to secure the structural lifecycle of the vessel, funding tools that launch the professional trajectories of hundreds of young scientists and engineers across the European continent.</p>
         </section>
