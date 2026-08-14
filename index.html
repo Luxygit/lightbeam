@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunBeam NGO | The Floating Open-Source Student Lab</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-dark: #0369a1;
+            --secondary: #f59e0b;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--dark); background-color: var(--light); line-height: 1.5; }
+        header { background: linear-gradient(135deg, var(--dark) 0%, #0f172a 100%); color: white; padding: 4rem 2rem; text-align: center; border-bottom: 4px solid var(--secondary); }
+        .logo-tag { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; tracking-spacing: 0.1em; color: var(--secondary); margin-bottom: 0.5rem; display: block; }
+        h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; }
+        header p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem auto; color: #94a3b8; }
+        .btn { display: inline-block; background-color: var(--secondary); color: var(--dark); padding: 0.75rem 1.5rem; font-weight: 700; text-decoration: none; border-radius: 0.375rem; transition: transform 0.2s; }
+        .btn:hover { transform: translateY(-2px); }
+        .container { max-width: 1000px; margin: 0 auto; padding: 3rem 1.5rem; }
+        section { background: white; border: 1px solid var(--border); border-radius: 0.5rem; padding: 2.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        h2 { font-size: 1.75rem; color: var(--dark); margin-bottom: 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+        h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem 0; color: var(--primary-dark); }
+        p { margin-bottom: 1rem; color: #475569; }
+        ul { margin-bottom: 1.5rem; padding-left: 1.25rem; }
+        li { margin-bottom: 0.5rem; color: #475569; }
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+        .card { background: var(--light); padding: 1.5rem; border-radius: 0.375rem; border-left: 4px solid var(--primary); }
+        .card h4 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--dark); }
+        .spec-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .spec-table th, .spec-table td { padding: 0.75rem; border: 1px solid var(--border); text-align: left; }
+        .spec-table th { background-color: var(--light); font-weight: 700; }
+        footer { text-align: center; padding: 3rem; color: #64748b; font-size: 0.9rem; border-top: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="logo-tag">✨ SUNBEAM NGO</span>
+        <h1>The Floating Open-Source Student Lab</h1>
+        <p>A zero-emission solar catamaran built to serve as a permanent mobile classroom navigating European waters for IT, marine biology, and green engineering specialists.</p>
+        <a href="#crowdfunding" class="btn">🚀 Support the Mission on Indiegogo</a>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>🔎 Project Overview</h2>
+            <p><strong>SunBeam</strong> is a permanent, non-profit maritime educational initiative designed to bridge the gap between digital innovation and real-world environmental sustainability. Founded by an IT student from 42 Barcelona holding an active engine boat permit, the project scales modern technology down to an eco-friendly mobile marine platform.</p>
+            <p>To guarantee absolute fiscal transparency and structural integrity, the vessel will be constructed and renovated entirely by the founder. Once completed, the vessel will transition into a registered European NGO asset, flying a lifetime Polish registration flag (REJA24 System) for unrestricted navigation through the Mediterranean and European inland canals.</p>
+        </section>
+
+        <section id="crew">
+            <h2>🗒️ The 4-Student Crew Configuration</h2>
+            <p>SunBeam will operate on a rolling schedule, hosting exactly four carefully screened European students at any given time. Each multi-month voyage will maintain a balanced team covering four critical technical pillars:</p>
+            
+            <div class="grid-4">
+                <div class="card">
+                    <h4>💻 IT Specialist</h4>
+                    <p>Manages hardware integrations, monitors system safety protocols, and updates open-source routing algorithms.</p>
+                </div>
+                <div class="card">
+                    <h4>⚡ Electrician / Maker</h4>
+                    <p>Monitors LiFePO4 battery banks, validates marine wiring, and handles preventative plywood maintenance.</p>
+                </div>
+                <div class="card">
+                    <h4>🧪 Marine Biologist</h4>
+                    <p>Deploys sampling rigs, tracks regional microplastic metrics, and logs continuous water quality indices.</p>
+                </div>
+                <div class="card">
+                    <h4>📈 Growth & Marketing</h4>
+                    <p>Documents field progress, updates global backers, and handles digital content production loops.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="specs">
+            <h2>📊 Vessel Specifications & Design Constraints</h2>
+            <p>SunBeam is optimized mathematically to comply safely with the physical lock and bridge clearances of the European inland canal networks while maintaining coastal seaworthiness.</p>
+            <table class="spec-table">
+                <tr><th>Metric / Feature</th><th>Specification Value</th><th>Canal Integration Strategy</th></tr>
+                <tr><td>Maximum Length</td><td>10.00 – 12.00 Meters</td><td>Optimal handling inside standard lock basins</td></tr>
+                <tr><td>Maximum Beam</td><td>3.00 Meters</td><td>Clears tight European Freycinet limits safely</td></tr>
+                <tr><td>Maximum Air Draft</td><td>2.00 Meters</td><td>Glides beneath low historical stone canal arches</td></tr>
+                <tr><td>Maximum Hull Draft</td><td>1.00 Meter</td><td>Prevents running aground in shallow silt waterways</td></tr>
+                <tr><td>Solar Matrix Capacity</td><td>2.7 kW (Rigid Overhead Array)</td><td>Direct electric drive during optimal sun cycles</td></tr>
+                <tr><td>Propulsion System</td><td>6 kW Electric Outboard Motor</td><td>Zero emissions, minimal acoustic marine footprint</td></tr>
+                <tr><td>Battery Storage Bank</td><td>15 kWh – 20 kWh LiFePO4</td><td>Guarantees 5-7 hours continuous night/cloud motoring</td></tr>
+            </table>
+        </section>
+
+        <section id="crowdfunding">
+            <h2>📈 Crowdfunding Framework & Altruistic Support</h2>
+            <p>SunBeam utilizes a purely community-backed, altruistic financial framework. Our upcoming crowdfunding initiative targets a fixed <strong>€18,000 baseline budget</strong>, with 100% of the funds allocated straight to raw hardware and marine construction components.</p>
+            <h3>Direct Resource Allocation:</h3>
+            <ul>
+                <li><strong>Hull Refitting & Plywood Marine Structural Adjustments:</strong> €7,000</li>
+                <li><strong>Electric Propulsion Outboard & Steering Integration:</strong> €4,500</li>
+                <li><strong>Solar Array System & MPPT Regulators:</strong> €2,500</li>
+                <li><strong>LiFePO4 Lithium Cells & Battery Management Safety Array:</strong> €2,200</li>
+                <li><strong>Indiegogo Transaction processing, Platform Protections & Licensing Logistics:</strong> €1,800</li>
+            </ul>
+            <p>Donors have structural flexibility to contribute any custom capital amount between <strong>€20 and €5,000</strong>. All contributions serve exclusively to secure the structural lifecycle of the vessel, funding tools that launch the professional trajectories of hundreds of young scientists and engineers across the European continent.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SunBeam NGO Project. Flying Polish Registry Platform REJA24. Built for European Student Innovation.</p>
+    </footer>
+
+</body>
+</html>
