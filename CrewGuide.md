@@ -1,9 +1,9 @@
-⛵ Project SunBeam: Crew Information & Application Guide
+⛵ Project LightBeam: Crew Information & Application Guide
 
-Thank you for your interest in joining the crew of SunBeam, a non-profit, zero-emission 12-meter solar boat. SunBeam operates as a mobile, floating laboratory designed to help European students put their technical skills into practice, conduct independent research, and kickstart their professional careers.The boat is personally constructed and skippered by Diego, an IT graduate from 42 Barcelona holding an active engine boat permit. The vessel flies a EU registration flag and navigates under the legal framework of a European environmental NGO.
+Thank you for your interest in joining the crew of LightBeam, a non-profit, zero-emission 12-meter solar boat. LightBeam operates as a mobile, floating laboratory designed to help European students put their technical skills into practice, conduct independent research, and kickstart their professional careers.The boat is personally constructed and skippered by Diego, an IT graduate from 42 Barcelona holding an active engine boat permit. The vessel flies a EU registration flag and navigates under the legal framework of a European environmental NGO.
 
 🗺️ Our Navigation Cycle
-SunBeam continuously travels through Europe’s inland waterways and coastal seas, offering an incredibly diverse maritime experience:
+LightBeam continuously travels through Europe’s inland waterways and coastal seas, offering an incredibly diverse maritime experience:
 - Summer Season: Navigating the dense, historic inland canal networks and coastal waters of Northern Europe.
 - Winter Season: Navigating the coastal waters and islands of the Mediterranean Sea and Southern Europe.
 
@@ -29,7 +29,7 @@ Living on a 12-meter catamaran with a 3-meter beam requires high mental and phys
 - No chronic medical conditions that are difficult, complex, or dangerous to treat while at sea or far from immediate hospital care.
 
 🪙 Financial Conditions
-SunBeam is a non-profit educational platform, not a commercial charter or a paid cruise.
+LightBeam is a non-profit educational platform, not a commercial charter or a paid cruise.
 What the NGO Covers: 
 - The boat (including the electric propulsion, the solar infrastructure, navigation safety gear)
 - A licensed skipper.
@@ -42,12 +42,12 @@ Students must be fully self-sufficient and able to afford their own personal exp
 - Any specific project/experiment tools and resources.
 
 ⚓ Life Onboard & Daily Responsibilities
-SunBeam is a cooperative environment. There are no passengers; everyone is active crew.
+LightBeam is a cooperative environment. There are no passengers; everyone is active crew.
 Every student is required to contribute daily to light maintenance, including cleaning the vessel, managing waste, and cooking.
 The "Galley Meetings" (Mandatory Syncs): We treat lunch and dinner as our informal, mandatory daily meetings. Everyone must cook and eat together. During these shared meals, we collectively plan our navigation routes, share individual project updates, brainstorm upcoming boat additions, and coordinate daily tasks. Community spirit and mutual respect during these syncs are vital.
 
 🎯 The Selection Process
-Securing a bunk onboard SunBeam involves a transparent, multi-step filter handled directly by the NGO director:
+Securing a bunk onboard LightBeam involves a transparent, multi-step filter handled directly by the NGO director:
 - Application Review: Evaluation of your academic background, study level, and language proficiency.
 - Project Pitch: Review of your proposed onboard project, focusing heavily on its technical or scientific value and its physical viability on a solar catamaran.
 - Short Interview & Social Screening: A brief video call to assess your communication skills, adaptability to community living, and psychological readiness for life at sea.
